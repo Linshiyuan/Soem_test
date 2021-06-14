@@ -206,11 +206,6 @@ void redtest(char *ifname, char *ifname2)
                 {
                     printf("Processdata cycle %5d , Wck %3d, DCtime %12ld, dt %12ld, O:", dorun, wkc, ec_DCtime,
                            gl_delta);
-                    for (j = 0; j < 16; j++)
-                    {
-                        printf(" %2.2x", *(ec_slave[0].outputs + j));
-                    }
-                    printf(" I:");
 
                     /////////////////////////////////////////
 
